@@ -9,7 +9,8 @@ function Home() {
 
      async function loadWeatherInfo() {
      try {
-        const response =  await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=f652964084c552e8c0492237a3fabd9c`)
+        const response =  await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}
+                                            &appid=f652964084c552e8c0492237a3fabd9c`)
          
         setTemperature((response.data.main.temp -273).toFixed(2))
         setMessage('✅ Data Fetched Successfully....')
