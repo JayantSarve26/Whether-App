@@ -30,7 +30,7 @@ function Home() {
     return (
 
         <div>
-            <h1 className='app-title'>Whether App {city}</h1>
+            <h1 className='app-title'> ☁ Whether App {city}</h1>
 
             <input
                 className='search-bar'

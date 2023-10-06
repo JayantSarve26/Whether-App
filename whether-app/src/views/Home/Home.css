@@ -4,19 +4,23 @@ body{
 }
 .app-title{
     text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
 }
 .search-bar{
     display: block;
     margin: 10px auto;
-    width:50%;
+    width:800px;
     padding: 10px;
     font-size: 32px;
     border-radius: 50px;
 }
 .temperature-text{
+    margin-top: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size:40px;
 }
 .message-text{
+    margin-top:40px;
     text-align: center;
 }
